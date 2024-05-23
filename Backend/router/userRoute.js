@@ -4,9 +4,9 @@ const userController = require('../controller/userController')
 const verifyiToken = require('../middlewarse/userAuth')
 
 router
-.post('/signup', verifyiToken, userController.userSignup)
+.post('/signup', userController.userSignup);
 
 
 
 
-module.exports = router          
+module.exports = router               

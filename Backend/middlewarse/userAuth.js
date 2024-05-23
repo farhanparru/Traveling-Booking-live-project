@@ -6,6 +6,7 @@ const userAuth = async(req,res,next) =>{
   try {
     // get token fro header
     const token = req.header("Authorization")
+    console.log(token,"kkk");
    
     // check if not a token
 

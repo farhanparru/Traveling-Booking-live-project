@@ -112,7 +112,7 @@ module.exports = {
               // Set refresh token as HTTP-Only cookie
            res.cookie('refreshToken', refreshToken, {
             httpOnly: true,
-             secure: true, // Set to true if using HTTPS
+            secure: true, // Set to true if using HTTPS
             sameSite: 'Strict',
             });
     

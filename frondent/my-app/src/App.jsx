@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css'
 import Login from './pages/log/Login';
+import Sign from './pages/sign/Sign';
 
 function App() {
  
@@ -9,6 +10,7 @@ function App() {
    <div>
     <Routes>
       <Route path='/' element={<Login/>}/>
+      <Route path='/sign' element={<Sign/>}/>
     </Routes>
    </div>
   )

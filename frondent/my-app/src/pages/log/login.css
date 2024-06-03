@@ -9,7 +9,7 @@ body {
     background-size: cover;
     background-position: center;
   }
-  
+
   .main-container {
     position: relative;
     width: 100%;
@@ -19,7 +19,7 @@ body {
     align-items: center;
     border-radius: 10px;
   }
-  
+
   .main-container::before {
     content: '';
     position: absolute;
@@ -31,7 +31,7 @@ body {
     z-index: -1; 
     border-radius: 6px;
   }
-  
+
   .main {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     padding: 40px;
@@ -42,26 +42,26 @@ body {
     position: relative;
     z-index: 1;
   }
-  
+
   h2.login {
     margin-bottom: 25px;
     color: #fff;
     font-size: 28px;
     font-weight: 700;
   }
-  
+
   form {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .inputGroup {
     margin-bottom: 20px;
     width: 100%;
     text-align: left;
   }
-  
+
   label {
     display: block;
     margin-bottom: 8px;
@@ -69,7 +69,7 @@ body {
     font-size: 15px;
     font-weight: 500;
   }
-  
+
   input[type="text"],
   input[type="password"] {
     width: 100%;
@@ -80,21 +80,21 @@ body {
     font-size: 16px;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
   }
-  
+
   input[type="text"]:focus,
   input[type="password"]:focus {
     border-color: #007BFF;
     box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
     outline: none;
   }
-  
+
   .btnGroup {
     display: flex;
     justify-content: space-between;
     width: 100%;
     gap: 10px;
   }
-  
+
   button.btn {
     background-color: #8b2ea5;
     color: #ffffff;
@@ -107,14 +107,13 @@ body {
     width: 100%;
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
-  
+
   button.btn:hover {
     background-color: #e17b27;
     transform: translateY(-2px);
   }
-  
+
   button.btn:active {
     background-color: #d8671a;
     transform: translateY(0);
   }
-  

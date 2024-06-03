@@ -1,0 +1,141 @@
+body{
+    background-color: #ffffff;
+}
+.main-reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+
+  }
+  .reg-main {
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.438);
+    max-width: 1200px;
+    width: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  .img-container {
+    margin-right: -25%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .content-reg{
+   margin-top: -30px;
+   color: #928e8e;
+   margin-left: 350px;
+  }
+  .icn-reg{
+    margin-left: 500px;
+    margin-bottom: 10px;
+    display:flex;
+    justify-self: center;
+    gap: 60px;
+  }
+  .form-container {
+    
+    flex: 1.5;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .reg {
+    margin-top: 3 5px;
+    color: #333;
+    font-size: 36px; 
+    font-weight: 800;
+    font-family: 'Georgia', serif; 
+    text-transform: uppercase;
+    letter-spacing: 3px; 
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2); 
+    background: linear-gradient(to right, #b4b7b4, #2b60b1); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    display: inline-block; 
+    margin-bottom: 20px; 
+}
+  .frm-reg {
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inputGroup {
+    margin-bottom: 20px;
+    width: 60%;
+    text-align: left;
+  }
+  .lb-reg {
+    display: block;
+    margin-bottom: -2px;
+    color: #085720;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .inpt-reg {
+    width: 100%;
+    height: 30px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #F5F5F5;
+  }
+
+  .inpt-reg:focus {
+    border-color: #065438;
+    box-shadow: 0 0 8px rgba(3, 76, 35, 0.662);
+    outline: none;
+  }
+  .btnGroup-reg{
+    display: grid;
+    justify-content: space-between;
+    width: 50%;
+  }
+  button.btn-reg{
+    background-color: #0b561f62;
+  color: #ffffff;
+  padding: 8px 50px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  button.btn-reg:hover {
+    background-color: #106136;
+    transform: translateY(-2px);
+  }
+  
+  button.btn-reg:active {
+    background-color: #004080;
+    transform: translateY(0);
+  }
+  
+  .icn-reg > * {
+    font-size: 3rem; 
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.icn-reg > *:hover {
+    color: #fff;
+    transform: scale(1.1); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
